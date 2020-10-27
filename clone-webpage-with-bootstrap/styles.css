@@ -1,0 +1,25 @@
+/* .hero-background-img {
+    position: absolute;
+    background-image: url("img/jaybird-home-jumbotron.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  } */
+.jumbotron {
+    height:560px;
+    font-family:Calibre-Bold;
+}
+.jumbotron h1{
+    font-size:100px;
+}
+.hero-background-img {
+    background-image:url("img/jaybird-home-jumbotron.png");
+    background-size: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.jumbotron >*{
+    margin-right:100px;
+    margin-top:50px;
+   }
