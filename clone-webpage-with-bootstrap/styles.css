@@ -5,21 +5,47 @@
     background-size: cover;
     background-position: center;
   } */
-.jumbotron {
+/* .jumbotron {
     height:560px;
     font-family:Calibre-Bold;
 }
+*/
+@font-face {
+    font-family: Calibre-Bold;
+    src: url(fonts/calibre-bold.woff)
+}
+@font-face {
+    font-family: Calibre-Medium;
+    src: url(fonts/calibre-medium.woff)
+}
+.navbar {
+    background-color: white;;
+}
 .jumbotron h1{
     font-size:100px;
+    margin-left: 42.85714%;
+    font-family:Calibre-Bold
+}
+.jumbotron p {
+    font-size: 16px;
+    font-family:Calibre-Medium;
+
 }
 .hero-background-img {
-    background-image:url("img/jaybird-home-jumbotron.png");
+    background-image:url("img/jaybird-home-banner.png");
     background-size: fixed;
-    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: calc(100% + 1px);
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
 }
 
-
+/* 
 .jumbotron >*{
     margin-right:100px;
     margin-top:50px;
-   }
+   } */
