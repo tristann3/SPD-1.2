@@ -1,15 +1,4 @@
-/* .hero-background-img {
-    position: absolute;
-    background-image: url("img/jaybird-home-jumbotron.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  } */
-/* .jumbotron {
-    height:560px;
-    font-family:Calibre-Bold;
-}
-*/
+
 @font-face {
     font-family: Calibre-Bold;
     src: url(fonts/calibre-bold.woff)
@@ -31,6 +20,23 @@
     font-family:Calibre-Medium;
 
 }
+.col-lg-7 h3{
+    font-size:40px;
+    font-family:Calibre-Bold
+}
+.col-lg-7{
+    font-size:16px;
+    font-family:Calibre-Medium
+}
+/* .hero-background-img {
+    position: absolute;
+    background-image: url("img/jaybird-home-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  */
+
 .hero-background-img {
     background-image:url("img/jaybird-home-banner.png");
     background-size: fixed;
@@ -43,9 +49,6 @@
     width: 100%;
     z-index: -1;
 }
-
-/* 
-.jumbotron >*{
-    margin-right:100px;
-    margin-top:50px;
-   } */
+.container {
+    transform: translateY(99vh);
+}
