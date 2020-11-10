@@ -30,3 +30,11 @@ body {
   .card {
     padding:0;
   }
+  .footer {
+    height:20vh
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display:block!important;
+
+  }
